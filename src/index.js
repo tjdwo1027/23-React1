@@ -6,10 +6,25 @@ import reportWebVitals from './reportWebVitals';
 import CommentList from './chapter_05/CommentList';
 import Notification from './chapter_06/Notifition';
 import Accommodate from './chapter_07/Accommodate';
+import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 
 
+const root = ReactDOM.createRoot(document.getElementById(`root`));
+root.render(
+  <React.StrictMode>
+    <SignUp/>
+  </React.StrictMode>
+)
 
+
+// const root = ReactDOM.createRoot(document.getElementById(`root`));
+// root.render(
+//   <React.StrictMode>
+//     <AttendanceBook/>
+//   </React.StrictMode>
+// )
 
 
 // const root = ReactDOM.createRoot(document.getElementById(`root`));

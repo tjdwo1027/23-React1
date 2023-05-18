@@ -9,15 +9,23 @@ import Accommodate from './chapter_07/Accommodate';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
-
+import Card from './chapter_13/Card';
 
 
 const root = ReactDOM.createRoot(document.getElementById(`root`));
 root.render(
   <React.StrictMode>
-    <Calculator/>
+    <Card/>
   </React.StrictMode>
 )
+
+
+// const root = ReactDOM.createRoot(document.getElementById(`root`));
+// root.render(
+//   <React.StrictMode>
+//     <Calculator/>
+//   </React.StrictMode>
+// )
 
 // const root = ReactDOM.createRoot(document.getElementById(`root`));
 // root.render(
